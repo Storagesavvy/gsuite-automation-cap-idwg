@@ -66,6 +66,7 @@ const CONFIG = {
    * CAPWATCH organization ID for data download
    * This should be your Wing ORGID
    * MI Wing = 223
+   * ID Wing = tbd
    */
   CAPWATCH_ORGID: '223',
   
@@ -73,19 +74,19 @@ const CONFIG = {
    * Wing abbreviation
    * Used for building squadron identifiers
    */
-  WING: "MI",
+  WING: "ID",
   
   /**
    * Email domain for CAP accounts
    * All members get username@miwg.cap.gov
    */
-  EMAIL_DOMAIN: "@miwg.cap.gov",
+  EMAIL_DOMAIN: "@idwgcap.org",
   
   /**
    * Google Workspace domain
    * Used for API calls
    */
-  DOMAIN: "miwg.cap.gov",
+  DOMAIN: "idwgcap.org",
   
   /**
    * Google Drive folder ID where CAPWATCH data files are stored
