@@ -43,7 +43,7 @@ function getSquadrons() {
     }
   }
 
-  // Create artificial AEM Unit using MIWG as template
+  // Create artificial AEM Unit using IDWG as template
   squadrons[CONFIG.SPECIAL_ORGS.AEM_UNIT] = {
     ...squadrons[CONFIG.CAPWATCH_ORGID],
     orgid: CONFIG.SPECIAL_ORGS.AEM_UNIT,
