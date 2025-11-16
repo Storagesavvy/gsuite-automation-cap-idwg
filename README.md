@@ -141,6 +141,8 @@ This project provides a complete automation solution for Civil Air Patrol (CAP) 
    - `src/accounts-and-groups/UpdateMembers.gs`
    - `src/accounts-and-groups/UpdateGroups.gs`
    - `src/accounts-and-groups/ManageLicenses.gs`
+4. (RJA) Add Service -> Admin SDK API for Google Apps Script
+   - Identifier = AdminDirectory
 
 **Note**: When you first run any function, Google Apps Script will automatically prompt you to authorize the required permissions.
 
