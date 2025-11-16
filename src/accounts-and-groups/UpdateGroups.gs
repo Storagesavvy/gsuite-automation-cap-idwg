@@ -256,7 +256,8 @@ function getEmailGroupDeltas() {
  */
 function getGroupMembers(groupName, attribute, attributeValues, members, squadrons) {
   let groups = {};
-  let wingGroupId = 'miwg.' + groupName;
+  let wingGroupId = groupName;
+  /** let wingGroupId = 'idwg.' + groupName; */
   let values = attributeValues.split(',');
   let groupId;
   groups[wingGroupId] = {}; 
@@ -734,7 +735,7 @@ function testEnhancedErrorTracking() {
       attempts: [
         {
           group: 'test-group-1',
-          groupEmail: 'test-group-1@miwg.cap.gov',
+          groupEmail: 'test-group-1@idwgcap.org',
           category: 'test-category',
           errorCode: 404,
           errorMessage: 'Test error message 1',
@@ -742,7 +743,7 @@ function testEnhancedErrorTracking() {
         },
         {
           group: 'test-group-2',
-          groupEmail: 'test-group-2@miwg.cap.gov',
+          groupEmail: 'test-group-2@idwgcap.org',
           category: 'test-category-2',
           errorCode: 400,
           errorMessage: 'Test error message 2',
@@ -756,7 +757,7 @@ function testEnhancedErrorTracking() {
       attempts: [
         {
           group: 'test-group-3',
-          groupEmail: 'test-group-3@miwg.cap.gov',
+          groupEmail: 'test-group-3@idwgcap.org',
           category: 'test-category-3',
           errorCode: 404,
           errorMessage: 'Test error message 3',
