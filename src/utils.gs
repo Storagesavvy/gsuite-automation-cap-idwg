@@ -330,3 +330,15 @@ const Logger = {
     this._logs = [];
   }
 };
+
+// View what's in CAPWATCH files
+function debugFiles() {
+  let members = parseFile('Member');
+  Logger.info('Member count', { count: members.length });
+  
+  let contacts = parseFile('MbrContact');
+  Logger.info('Contact count', { count: contacts.length });
+
+  let squadrons = parseFile('Organization');
+  Logger.info('Unit count', { count: squadrons.length });
+}
