@@ -26,7 +26,7 @@ const CONFIG = {
    * These typically represent transition or inactive units
    * MI-000 (744) and MI-999 (1920) are holding units for members in transition
    */
-  EXCLUDED_ORG_IDS: ['744', '1920'],
+  EXCLUDED_ORG_IDS: ['45', '2253'],
   
   /**
    * Special organization configurations
@@ -66,9 +66,9 @@ const CONFIG = {
    * CAPWATCH organization ID for data download
    * This should be your Wing ORGID
    * MI Wing = 223
-   * ID Wing = tbd
+   * ID Wing = 46
    */
-  CAPWATCH_ORGID: '223',
+  CAPWATCH_ORGID: '46',
   
   /**
    * Wing abbreviation
