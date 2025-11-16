@@ -98,7 +98,7 @@ function reactivateSuspendedActiveUsers(activeCapsns) {
     
     if (page.users) {
       for (const user of page.users) {
-        // Extract CAPSN from email (format: 123456@miwg.cap.gov)
+        // Extract CAPSN from email (format: 123456@idwg.cap.gov)
         const capsn = user.primaryEmail.split('@')[0];
         
         // Skip if not numeric (admin accounts, etc.)
@@ -522,7 +522,7 @@ function sendLicenseManagementReport(summary) {
   htmlBody += `
         <hr>
         <p style="font-size: 12px; color: #666;">
-          This is an automated report from the MIWG CAPWATCH Automation system.
+          This is an automated report from the IDWG CAPWATCH Automation system.
           For questions or issues, please contact the IT administrator (${ITSUPPORT_EMAIL}).
         </p>
       </body>
